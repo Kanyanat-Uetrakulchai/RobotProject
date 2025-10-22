@@ -2,6 +2,7 @@
 > cd <your_workspace>/src <br>
 > git clone https://github.com/Kanyanat-Uetrakulchai/RobotProject.git <br>
 > cd .. <br>
+> rm -rf build install log <br>
 > colcon build <br>
 > source install/setup.bash <br>
 > export TURTLEBOT3_MODEL=burger <br>
