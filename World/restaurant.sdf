@@ -96,7 +96,7 @@
       <self_collide>false</self_collide>
     </model>
     <model name='burger'>
-      <pose>-0.017274367738608385 -9.7956320456562236e-08 0.067537554563608923 -5.256232769632752e-09 -0.22710470906866123 -1.2158777343231649e-06</pose>
+      <pose>-0.013403317057133494 -1.1789620913829576e-07 0.066948937873226311 -5.3195501108616089e-09 -0.012461736278826229 -1.7560164707724414e-06</pose>
       <link name='base_footprint'>
         <pose>0 0 0 0 0 0</pose>
         <inertial>
@@ -154,7 +154,7 @@
             <diffuse>0.300000012 0.300000012 0.300000012 1</diffuse>
           </material>
         </visual>
-        <pose>-4.1199682554449168e-18 0 -1.3877787807814457e-17 5.2939559203393771e-23 -9.8107735397252942e-18 2.1175823681357508e-22</pose>
+        <pose>0 0 -1.3877787807814457e-17 0 -4.0743531584413819e-19 0</pose>
         <enable_wind>false</enable_wind>
       </link>
       <link name='imu_link'>
@@ -242,7 +242,7 @@
             <enable_orientation>true</enable_orientation>
           </imu>
         </sensor>
-        <pose>-4.1199682554449168e-18 0 -1.3877787807814457e-17 5.2939559203393771e-23 -9.8107735397252942e-18 2.1175823681357508e-22</pose>
+        <pose>0 0 -1.3877787807814457e-17 0 -4.0743531584413819e-19 0</pose>
         <inertial>
           <pose>0 0 0 0 0 0</pose>
           <mass>1</mass>
@@ -332,7 +332,7 @@
             <visibility_mask>4294967295</visibility_mask>
           </lidar>
         </sensor>
-        <pose>2.1684043449710089e-18 -2.6469779601696886e-23 0 0 4.3807079169293129e-19 0</pose>
+        <pose>0 0 -1.3877787807814457e-17 0 -4.0743531584413819e-19 0</pose>
         <enable_wind>false</enable_wind>
       </link>
       <link name='wheel_left_link'>
@@ -392,7 +392,7 @@
             <diffuse>0.200000003 0.200000003 0.200000003 1</diffuse>
           </material>
         </visual>
-        <pose>0.00026825804568052637 -1.2492764461802517e-09 1.5687983572071351e-06 5.4470957435546083e-08 -0.011696055334666168 -9.314308955732943e-06</pose>
+        <pose>0.00026941886232116283 -1.2600654922778641e-09 1.5818004053952395e-06 5.4935680841793652e-08 -0.011745577002646512 -9.3543555306787114e-06</pose>
         <enable_wind>false</enable_wind>
       </link>
       <link name='wheel_right_link'>
@@ -452,11 +452,11 @@
             <diffuse>0.200000003 0.200000003 0.200000003 1</diffuse>
           </material>
         </visual>
-        <pose>0.00026972590602360701 -1.2560082557344643e-09 1.5772519735279822e-06 5.4461939722783e-08 -0.011695087203879106 -9.3135379016183417e-06</pose>
+        <pose>0.00027089318775585028 -1.2668567683119165e-09 1.5903275611545142e-06 5.492664884499938e-08 -0.01174461142784956 -9.3535865113512726e-06</pose>
         <enable_wind>false</enable_wind>
       </link>
       <link name='caster_back_link'>
-        <pose>-0.081000000000000016 -2.6469779601696886e-23 -0.0039999999999999758 -1.569999860447578 -0.40753316229781544 1.0306864737446509e-06</pose>
+        <pose>-0.080999999999999975 -2.6469779601696886e-23 -0.0040000000000000036 -1.5699624390374749 -0.17492695052302401 -7.8753193621251292e-06</pose>
         <inertial>
           <mass>0.0050000000000000001</mass>
           <inertia>
@@ -769,7 +769,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///opt/ros/jazzy/share/turtlebot3_gazebo/models/cafe/model://cafe/meshes/cafe.dae</uri>
+              <uri>file:///home/kanyanat/turtlebot3_ws/src/RobotProject/World/models/cafe/model://cafe/meshes/cafe.dae</uri>
               <scale>0.29999999999999999 0.29999999999999999 0.29999999999999999</scale>
             </mesh>
           </geometry>
@@ -789,7 +789,7 @@
         </inertial>
         <enable_wind>false</enable_wind>
       </link>
-      <pose>0.04368613484242978 -0.037351465212746182 0 0 0 0</pose>
+      <pose>-0.22963287393446397 -0.079467000540334926 0 0 0 0</pose>
       <self_collide>false</self_collide>
     </model>
     <light name='sun' type='directional'>
