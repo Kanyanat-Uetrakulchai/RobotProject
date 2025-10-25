@@ -145,7 +145,7 @@
           <pose>-0.032000000000000001 0 0 0 0 0</pose>
           <geometry>
             <mesh>
-              <uri>file:///opt/ros/jazzy/share/turtlebot3_gazebo/models/turtlebot3_burger/model://turtlebot3_common/meshes/bases/burger_base.stl</uri>
+              <uri>model://turtlebot3_burger</uri>
               <scale>0.001 0.001 0.001</scale>
             </mesh>
           </geometry>
@@ -290,7 +290,7 @@
           <pose>-0.032000000000000001 0 0.17100000000000001 0 0 0</pose>
           <geometry>
             <mesh>
-              <uri>file:///opt/ros/jazzy/share/turtlebot3_gazebo/models/turtlebot3_burger/model://turtlebot3_common/meshes/sensors/lds.stl</uri>
+              <uri>model://turtlebot3_common/meshes/sensors/lds.stl</uri>
               <scale>0.001 0.001 0.001</scale>
             </mesh>
           </geometry>
@@ -383,7 +383,7 @@
           <pose>0 0.080000000000000002 0.023 0 0 0</pose>
           <geometry>
             <mesh>
-              <uri>file:///opt/ros/jazzy/share/turtlebot3_gazebo/models/turtlebot3_burger/model://turtlebot3_common/meshes/wheels/left_tire.stl</uri>
+              <uri>model://turtlebot3_common/meshes/wheels/left_tire.stl</uri>
               <scale>0.001 0.001 0.001</scale>
             </mesh>
           </geometry>
@@ -443,7 +443,7 @@
           <pose>0 -0.080000000000000002 0.023 0 0 0</pose>
           <geometry>
             <mesh>
-              <uri>file:///opt/ros/jazzy/share/turtlebot3_gazebo/models/turtlebot3_burger/model://turtlebot3_common/meshes/wheels/right_tire.stl</uri>
+              <uri>model://turtlebot3_common/meshes/wheels/right_tire.stl</uri>
               <scale>0.001 0.001 0.001</scale>
             </mesh>
           </geometry>
@@ -769,7 +769,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/kanyanat/turtlebot3_ws/src/RobotProject/World/models/cafe/model://cafe/meshes/cafe.dae</uri>
+              <uri>model://cafe</uri>
               <scale>0.29999999999999999 0.29999999999999999 0.29999999999999999</scale>
             </mesh>
           </geometry>
