@@ -48,14 +48,18 @@
       <pose>0 0 0 0 0 0</pose>
     </include>
     <include>
-      <uri>file:///opt/ros/jazzy/share/turtlebot3_gazebo/models/turtlebot3_burger</uri>
+      <uri>model://turtlebot3_burger</uri>
       <name>burger</name>
-      <pose>-0.015474451430553673 -6.9967063857560267e-08 0.034431877544428703 6.2525774967857948e-06 -0.14964717439823849 -7.8803100102737952e-07</pose>
+      <pose>-0.012376627984071504 -2.5687608998054312e-08 0.020883432165963316 2.7086011061366563e-06 -0.070850282305255849 -2.3489802115174737e-07</pose>
     </include>
     <include>
-      <uri>file:///home/kanyanat/turtlebot3_ws/src/RobotProject/World/models/cafe</uri>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Chair</uri>
+      <pose>-0.012376627984071504 -2.5687608998054312e-08 0.020883432165963316 2.7086011061366563e-06 -0.070850282305255849 -2.3489802115174737e-07</pose>
+    </include>
+    <include>
+      <uri>model://cafe</uri>
       <name>cafe</name>
-      <pose>-0.076961502861630393 -0.13154491342897412 0 0 0 0</pose>
+      <pose>0.078672704252241932 -0.23708652466327262 0 0 0 0</pose>
     </include>
     <light name='sun' type='directional'>
       <pose>0 0 10 0 0 0</pose>
