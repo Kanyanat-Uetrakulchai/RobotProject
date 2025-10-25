@@ -22,6 +22,9 @@ var/
 wheels/
 share/python-wheels/
 *.egg-info/
+.gitignore exceptions for robot models
+!World/models/turtlebot3_common/meshes/wheels/
+!World/models/turtlebot3_common/meshes/wheels/*.stl
 .installed.cfg
 *.egg
 MANIFEST
