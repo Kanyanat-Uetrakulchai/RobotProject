@@ -142,6 +142,75 @@
       <pose>-0.51092000000000004 -1.2758100000000001 0 0 0 0</pose>
     </include>
 
+    <!-- Additional Item -->
+    <include>
+      <uri>model://Salad_on_a_Plate</uri>
+      <name>Salad_on_a_Plate</name>
+      <pose>0.70054927487751695 -0.942647819224113 0.23054381892178333 -0.00042728239771956385 0.0010855105357015363 4.0261356032505303e-06</pose>
+    </include>
+
+    <include>
+      <uri>model://Birthday cake</uri>
+      <name>birthday_cake</name>
+      <pose>0.66482699999999995 -2.59246 0.23050000000000001 0 0 0</pose>
+      <scale>0.5 0.5 0.5</scale>
+    </include>
+
+    <include>
+      <uri>model://Coke</uri>
+      <name>coke_1</name>
+      <pose>0.65383100000000005 -1.30243 0.23050000000000001 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://Coke</uri>
+      <name>coke_2</name>
+      <pose>0.79670799999999997 -1.32545 0.23050000000000001 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://Coke</uri>
+      <name>coke_3</name>
+      <pose>-0.58815499999999998 -0.95256300000000005 0.23050000000000001 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://Coke</uri>
+      <name>coke_4</name>
+      <pose>-0.45404 -1.2981100000000001 0.23005 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://STEAK_SET</uri>
+      <name>steak_set</name>
+      <pose>-0.57090323772900087 -1.2623104690593165 0.22934293134910161 0.022345164142258366 -0.0071870331237261498 -1.4990216153572331</pose>
+    </include>
+
+    <include>
+      <uri>model://Melissa_Doug_Felt_Food_Pizza_Set</uri>
+      <name>pizza_set</name>
+      <pose>-0.40243094184188749 -1.0091749295484869 0.22108113658127279 0.052128188681617574 0.078199033908812207 -0.032844136612769373</pose>
+      <scale>0.8 0.8 0.8</scale>
+    </include>
+
+    <include>
+      <uri>model://Breakfast Menu Original</uri>
+      <name>breakfast_menu_1</name>
+      <pose>-0.43835899999999972 1.7572099999999999 0.4 2.0000000000000177e-06 -0.00031200000000000016 -0.99999999999999989</pose>
+    </include>
+
+    <include>
+      <uri>model://Breakfast Menu Original</uri>
+      <name>breakfast_menu_2</name>
+      <pose>-0.43097999999999997 2.4306000000000001 0.4 -0.00042500001670604516 0.00023500000923745986 -1.9629609054780399e-15</pose>
+    </include>
+<!-- 
+    <include>
+      <uri>model://Casual Female</uri>
+      <name>female</name>
+      <pose>0.95492900000000003 2.56839 0 0 0 0</pose>
+      <scale>0.5 0.5 0.5</scale>
+    </include>
+-->
+้
+
     <scene>
       <shadows>false</shadows>
     </scene>

@@ -1,0 +1,284 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="wide_hinged_door">
+    <link name="frame">
+      <pose>0.06 -0.0005 0 0 0 0</pose>
+      <collision name="collision_1-right-frame">
+        <pose>-0.025145 -0.02 1.0541 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.05029 0.2 2.10820</size>
+          </box>
+        </geometry>
+        <surface>
+          <contact>
+            <collide_bitmask>0x01</collide_bitmask>
+          </contact>
+        </surface>
+
+      </collision>
+      <collision name="collision_2-left-frame">
+        <pose>-0.025145 2.01 1.0541 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.05029 0.2 2.10820</size>
+          </box>
+        </geometry>
+        <surface>
+          <contact>
+            <collide_bitmask>0x01</collide_bitmask>
+          </contact>
+        </surface>
+
+      </collision>
+      <collision name="collision_3-top">
+        <pose>-0.0251450 0.46482 2.07137 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.05029 2.92964 0.07366</size>
+          </box>
+        </geometry>
+        <surface>
+          <contact>
+            <collide_bitmask>0x01</collide_bitmask>
+          </contact>
+        </surface>
+
+      </collision>
+      <visual name="extra_frame1">
+        <pose>-0.0251450 0.8 2.358 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.05029 4 0.5</size>
+          </box>
+        </geometry>
+      </visual>
+      <collision name="extra_frame1_collision">
+        <pose>-0.0251450 0.8 2.358 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.05029 4 0.5</size>
+          </box>
+        </geometry>
+        <surface>
+          <contact>
+            <collide_bitmask>0x01</collide_bitmask>
+          </contact>
+        </surface>
+
+      </collision>
+
+      <visual name="extra_frame2">
+        <pose>-0.0251450 2.81 1.25 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.05029 1.5 2.5</size>
+          </box>
+        </geometry>
+      </visual>
+      <collision name="extra_frame2_collision">
+        <pose>-0.0251450 2.81 1.25 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.05029 1.5 2.5</size>
+          </box>
+        </geometry>
+        <surface>
+          <contact>
+            <collide_bitmask>0x01</collide_bitmask>
+          </contact>
+        </surface>
+
+      </collision>
+
+      <visual name="extra_frame3">
+        <pose>-0.0251450 -.81 1.25 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.05029 1.5 2.5</size>
+          </box>
+        </geometry>
+      </visual>
+      <collision name="extra_frame3_collision">
+        <pose>-0.0251450 -.81 1.25 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.05029 1.5 2.5</size>
+          </box>
+        </geometry>
+        <surface>
+          <contact>
+            <collide_bitmask>0x01</collide_bitmask>
+          </contact>
+        </surface>
+
+      </collision>
+
+      <visual name="visual">
+        <pose>0 -0.06858 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 2 1.0</scale>
+            <uri>meshes/frame.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <link name="door">
+      <pose>-0.0 0.000 2.040 3.14159 0 1.57</pose>
+      <inertial>
+        <mass>41.3256</mass>
+        <pose>0.4569 0.0349 1.016 0 0 0</pose>
+        <inertia>
+          <ixx>14.2053</ixx>
+          <ixy>0.0004</ixy>
+          <ixz>0.0000</ixz>
+          <iyy>17.1997</iyy>
+          <iyz>0.0000</iyz>
+          <izz>3.0298</izz>
+        </inertia>
+      </inertial>
+      <collision name="collision">
+        <pose>0.99 0.0349 1.016 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>1.8288 0.04445 2.032</size>
+          </box>
+        </geometry>
+        <surface>
+          <contact>
+            <collide_bitmask>0x01</collide_bitmask>
+          </contact>
+        </surface>
+
+      </collision>
+      <visual name="visual">
+        <pose>0.075 -0.0678 -0.0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>2 1 1.0</scale>
+            <uri>meshes/door.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <link name="handles">
+      <pose>0.0 1.8 1.05 0 3.14 1.57</pose>
+      <collision name="handle1_collision">
+        <pose>0.015 -0.015 0 -1.57 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>meshes/handle.dae</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <collide_bitmask>0x01</collide_bitmask>
+          </contact>
+        </surface>
+
+      </collision>
+      <visual name="handle1_visual">
+        <pose>0.015 -0.015 0 -1.57 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>meshes/handle.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="handle2_collision">
+        <pose>0.015 -0.055 0 1.57 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>meshes/handle.dae</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <collide_bitmask>0x01</collide_bitmask>
+          </contact>
+        </surface>
+
+      </collision>
+      <visual name="handle2_visual">
+        <pose>0.015 -0.055 0 1.57 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>meshes/handle.dae</uri>
+          </mesh>
+        </geometry>
+
+      </visual>
+    </link>
+    <joint name="handle" type="revolute">
+      <parent>door</parent>
+      <child>handles</child>
+      <pose>0.015 0 0 0 0 0</pose>
+      <axis>
+        <xyz>1 0 0</xyz>
+        <limit>
+          <lower>0</lower>
+          <upper>1.58</upper>
+        </limit>
+        <dynamics>
+          <damping>1.0</damping>
+          <friction>10</friction>
+        </dynamics>
+        <use_parent_model_frame>true</use_parent_model_frame>
+      </axis>
+      <physics>
+        <ode>
+          <cfm_damping>1</cfm_damping>
+        </ode>
+      </physics>
+    </joint>
+    <joint name="hinge" type="revolute">
+      <parent>frame</parent>
+      <child>door</child>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>0</lower>
+          <upper>1.58</upper>
+        </limit>
+        <dynamics>
+          <damping>1.0</damping>
+          <friction>1.0</friction>
+        </dynamics>
+        <use_parent_model_frame>true</use_parent_model_frame>
+      </axis>
+      <physics>
+        <ode>
+          <cfm_damping>1</cfm_damping>
+        </ode>
+      </physics>
+    </joint>
+    <joint name="world_joint" type="fixed">
+      <child>frame</child>
+      <parent>world</parent>
+      <axis>
+        <limit>
+          <lower>0</lower>
+          <upper>0</upper>
+        </limit>
+        <xyz>0 1 0</xyz>
+      </axis>
+    </joint>
+
+    <plugin
+      filename="ignition-gazebo-joint-position-controller-system"
+      name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>hinge</joint_name>
+      <topic>hinge</topic>
+      <p_gain>40</p_gain>
+      <i_gain>0.1</i_gain>
+      <d_gain>0.01</d_gain>
+      <i_max>1</i_max>
+      <i_min>-1</i_min>
+      <cmd_max>100</cmd_max>
+      <cmd_min>-100</cmd_min>
+    </plugin>
+
+
+  </model>
+</sdf>

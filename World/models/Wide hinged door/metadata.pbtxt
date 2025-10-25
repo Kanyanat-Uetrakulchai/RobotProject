@@ -1,0 +1,17 @@
+model {
+  file: "model.sdf"
+  file_format {
+    version {
+      major: 1
+      minor: 5
+    }
+    name: "sdf"
+  }
+}
+name: "Wide hinged door"
+description: "A hinged door with two handles"
+authors {
+  name: "Christina Gomez"
+  email: "cgomez@swri.org"
+}
+
