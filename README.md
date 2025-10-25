@@ -7,7 +7,7 @@
 > source install/setup.bash <br>
 > source src/RobotProject/setup_gz.sh<br>
 > export TURTLEBOT3_MODEL=burger <br>
-> ros2 launch turtlebot3_gazebo empty_world.launch.py world:=`<PATH TO PROJECT>/RobotProject/World/restaurant.sdf`
+> ros2 launch turtlebot3_gazebo empty_world.launch.py <br>
 
 ถ้า Local Resources ใน Gazebo Sim ไม่ขึ้นแบบในภาพ
 ![alt text](image.png)
