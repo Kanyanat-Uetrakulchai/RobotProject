@@ -67,7 +67,7 @@
     <include>
       <uri>model://Chair</uri>
       <name>chair_6</name>
-      <pose>-0.84999400000000003 -1.36608 0 0 0 1.44329e-15</pose>
+      <pose>-0.84999400000000003 -1.301470 0 0 0 1.44329e-15</pose>
     </include>
 
     <include>
