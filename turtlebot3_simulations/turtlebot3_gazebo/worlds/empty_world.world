@@ -187,7 +187,7 @@
       <uri>model://Melissa_Doug_Felt_Food_Pizza_Set</uri>
       <name>pizza_set</name>
       <pose>-0.40243094184188749 -1.0091749295484869 0.22108113658127279 0.052128188681617574 0.078199033908812207 -0.032844136612769373</pose>
-      <scale>0.8 0.8 0.8</scale>
+      <scale>0.7 0.7 0.7</scale>
     </include>
 
     <include>
@@ -201,15 +201,12 @@
       <name>breakfast_menu_2</name>
       <pose>-0.43097999999999997 2.4306000000000001 0.4 -0.00042500001670604516 0.00023500000923745986 -1.9629609054780399e-15</pose>
     </include>
-<!-- 
     <include>
-      <uri>model://Casual Female</uri>
-      <name>female</name>
+      <uri>model://Casual female</uri>
+      <name>casual_female</name>
       <pose>0.95492900000000003 2.56839 0 0 0 0</pose>
       <scale>0.5 0.5 0.5</scale>
     </include>
--->
-้
 
     <scene>
       <shadows>false</shadows>

@@ -194,7 +194,7 @@
           <max_velocity>0.2</max_velocity>
           <scale_rate>0.01</scale_rate>
           <rate>200</rate>
-          <color_range_image>materials/textures/fire_colors.png</color_range_image>
+          <color_range_image>model://Birthday cake/materials/textures/fire_colors.png</color_range_image>
           <!-- The material seems to override the color_range_image,
                but without the material, the particles look like solid squares -->
           <material>
@@ -202,7 +202,7 @@
             <specular>1.0 1.0 1.0</specular>
             <pbr>
               <metal>
-                <albedo_map>materials/textures/fog.png</albedo_map>
+                <albedo_map>model://Birthday cake/materials/textures/fog.png</albedo_map>
               </metal>
             </pbr>
           </material>
