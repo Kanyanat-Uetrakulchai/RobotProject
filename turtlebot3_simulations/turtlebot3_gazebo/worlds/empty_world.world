@@ -185,7 +185,7 @@
     <include>
       <uri>model://Melissa_Doug_Felt_Food_Pizza_Set</uri>
       <name>pizza_set</name>
-      <pose>-0.40243094184188749 -1.0091749295484869 0.22108113658127279 0 0 0</pose>
+      <pose>-0.47243094184188749 -1.0091749295484869 0.23108113658127279 0 0 0</pose>
       <scale>0.7 0.7 0.7</scale>
     </include>
 
