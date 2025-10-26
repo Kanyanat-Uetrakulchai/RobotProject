@@ -10,7 +10,7 @@
               <submesh>
                 <name>Layer1</name>
               </submesh>
-              <scale>0.1 0.1 0.1</scale>
+              <scale>0.05 0.05 0.05</scale>
             </mesh>
           </geometry>
           <material>
@@ -27,7 +27,7 @@
               <submesh>
                 <name>Layer2</name>
               </submesh>
-              <scale>0.1 0.1 0.1</scale>
+              <scale>0.05 0.05 0.05</scale>
             </mesh>
           </geometry>
           <material>
@@ -44,7 +44,7 @@
               <submesh>
                 <name>Layer3</name>
               </submesh>
-              <scale>0.1 0.1 0.1</scale>
+              <scale>0.05 0.05 0.05</scale>
             </mesh>
           </geometry>
           <material>
@@ -61,7 +61,7 @@
               <submesh>
                 <name>Filling1</name>
               </submesh>
-              <scale>0.1 0.1 0.1</scale>
+              <scale>0.05 0.05 0.05</scale>
             </mesh>
           </geometry>
           <material>
@@ -78,7 +78,7 @@
               <submesh>
                 <name>Filling2</name>
               </submesh>
-              <scale>0.1 0.1 0.1</scale>
+              <scale>0.05 0.05 0.05</scale>
             </mesh>
           </geometry>
           <material>
@@ -95,7 +95,7 @@
               <submesh>
                 <name>Frosting1</name>
               </submesh>
-              <scale>0.1 0.1 0.1</scale>
+              <scale>0.05 0.05 0.05</scale>
             </mesh>
           </geometry>
           <material>
@@ -112,7 +112,7 @@
               <submesh>
                 <name>Frosting2</name>
               </submesh>
-              <scale>0.1 0.1 0.1</scale>
+              <scale>0.05 0.05 0.05</scale>
             </mesh>
           </geometry>
           <material>
@@ -129,7 +129,7 @@
               <submesh>
                 <name>Frosting3</name>
               </submesh>
-              <scale>0.1 0.1 0.1</scale>
+              <scale>0.05 0.05 0.05</scale>
             </mesh>
           </geometry>
           <material>
@@ -146,7 +146,7 @@
               <submesh>
                 <name>Sprinkles</name>
               </submesh>
-              <scale>0.1 0.1 0.1</scale>
+              <scale>0.05 0.05 0.05</scale>
             </mesh>
           </geometry>
           <material>
@@ -161,7 +161,7 @@
           <geometry>
             <mesh>
               <uri>meshes/openrobotics.dae</uri>
-              <scale>5 5 5</scale>
+              <scale>2.5 2.5 2.5</scale>
             </mesh>
           </geometry>
           <material>
