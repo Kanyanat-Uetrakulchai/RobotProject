@@ -9,7 +9,7 @@
     <modified>2022-03-21T21:32:58</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
-  </asset>
+  </asset>z
   <library_effects>
     <effect id="Material_001-effect">
       <profile_COMMON>

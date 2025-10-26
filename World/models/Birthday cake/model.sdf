@@ -157,7 +157,7 @@
           </material>
         </visual>
         <visual name='OpenRobotics'>
-          <pose>-0.02 0 0.17 0 0 0</pose>
+          <pose>-0.007 0 0.09 0 0 0</pose>
           <geometry>
             <mesh>
               <uri>meshes/openrobotics.dae</uri>
@@ -187,22 +187,20 @@
         <particle_emitter name="candle" type="ellipsoid">
           <pose>0.0 0 0.115 0 -1.57 0</pose>
           <emitting>true</emitting>
-          <size>0.01 0.01 0.02</size>
-          <particle_size>0.005 0.005 0.0025</particle_size>
-          <lifetime>0.5</lifetime>
-          <min_velocity>0.05</min_velocity>
-          <max_velocity>0.1</max_velocity>
-          <scale_rate>0.005</scale_rate>
-          <rate>150</rate>
-          <color_range_image>model://Birthday cake/materials/textures/fire_colors.png</color_range_image>
-          <!-- The material seems to override the color_range_image,
-               but without the material, the particles look like solid squares -->
+          <size>0.01 0.01 0.015</size>
+          <particle_size>0.004 0.004 0.002</particle_size>
+          <lifetime>0.22</lifetime>
+          <min_velocity>0.02</min_velocity>
+          <max_velocity>0.05</max_velocity>
+          <scale_rate>0</scale_rate>
+          <rate>220</rate>
+          <color_range_image>file://materials/textures/fire_colors.png</color_range_image>
           <material>
             <diffuse>0.9 0.3 0</diffuse>
             <specular>1.0 1.0 1.0</specular>
             <pbr>
               <metal>
-                <albedo_map>model://Birthday cake/materials/textures/fog.png</albedo_map>
+                <albedo_map>file://materials/textures/fog.png</albedo_map>
               </metal>
             </pbr>
           </material>
