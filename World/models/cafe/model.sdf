@@ -35,14 +35,14 @@
       <collision name="wall_4">
         <pose>0.627 2.67 0.4305 0 0 0</pose>
         <geometry>
-          <box><size>0.036 0.915 0.861</size></box>
+          <box><size>0.036 0.18 0.861</size></box>
         </geometry>
       </collision>
 
       <collision name="wall_5">
         <pose>0.9465 3.12 0.4305 0 0 0</pose>
         <geometry>
-          <box><size>0.639 0.036 0.861</size></box>
+          <box><size>0.18 0.036 0.861</size></box>
         </geometry>
       </collision>
 
