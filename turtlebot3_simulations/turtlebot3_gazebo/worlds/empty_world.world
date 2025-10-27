@@ -177,6 +177,18 @@
     </include>
 
     <include>
+      <uri>model://Hinged door</uri>
+      <name>hinged_door_small</name>
+      <pose>-1.2764859195363709 -3.2960314750163469 -0.020857846567774788 -0.00060391016505354476 0.0093470497231750698 -1.5657599437995458</pose>
+    </include>
+
+    <include>
+      <uri>model://Hinged door</uri>
+      <name>hinged_door_small_2</name>
+      <pose>0.22018020559843438 2.2417245362020579 -0.020857846567774788 -0.00060391016505354476 0.0093470497231750698 -1.5657599437995458</pose>
+    </include>
+
+    <include>
       <uri>model://STEAK_SET</uri>
       <name>steak_set</name>
       <pose>-0.57090323772900087 -1.2623104690593165 0.22934293134910161 0 0 -1.4990216153572331</pose>

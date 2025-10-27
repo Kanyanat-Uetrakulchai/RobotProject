@@ -35,7 +35,7 @@
 	<pose>0 -0.06858 0 0 0 0 </pose>
         <geometry>
           <mesh>
-            <uri>model://hinged_door/meshes/frame.dae</uri>
+            <uri>meshes/frame.dae</uri>
           </mesh>
         </geometry>
       </visual>
@@ -68,7 +68,7 @@
 	<pose>0 -0.06858 0 0 0 0</pose>
         <geometry>
           <mesh>
-            <uri>model://hinged_door/meshes/door.dae</uri>
+            <uri>meshes/door.dae</uri>
           </mesh>
         </geometry>
       </visual>
